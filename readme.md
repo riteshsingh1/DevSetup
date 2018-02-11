@@ -35,13 +35,18 @@ Composer 1.6		| 							|
 
 ## Prerequisites
 
-Please make sure you have git installed. If not then open terminal and run-
+Please make sure you have git installed. If not then
 
+### linux or ubuntu
+open terminal and run-
 
 ```bash
 sudo apt-get install update && sudo apt-get install git
 ```
 
+### windows
+
+Download [Git For Windows](https://git-scm.com/download/win)
 
 ## Installation
 
@@ -52,36 +57,64 @@ sudo apt-get install update && sudo apt-get install git
 
 ## PHP Development Setup
 
+**Ubuntu and Linux**
+
 Open the terminal and run
 
 ```bash
 git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-php.sh
 ```
 
+**Windows**
+Open command prompt with administrator then navigate to this directory then run-
+
+```bash
+windows-php
+```
+
 this will install all packages essential for PHP development. 
 The default mysql root password is root.
 
 ## Javascript
+
+**Ubuntu and Linux**
+
 Open the terminal and run
 
 ```bash
 git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-js.sh
 ```
 
+**Windows**
+Open command prompt with administrator then navigate to this directory then run-
+
+```bash
+windows-js
+```
+
 this will install all packages essential for Javascript development
 
 
 ## Android
+
+**Ubuntu and Linux**
+
 Open the terminal and run
 
 ```bash
 git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-android.sh
 ```
 
+**Windows**
+Open command prompt with administrator then navigate to this directory then run-
+
+```bash
+windows-android
+```
+
 this will download and install all, JAVA and set home variable and required component like latest android SDK, Android platform tools, etc. It will also create a desktop icon.
 
 ## TODO
- - Add Support for windows
  - Add Support for Fedora and RHEL
 
 ## Contributing
