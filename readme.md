@@ -2,7 +2,7 @@
 ### Setup Delopment environment for PHP,Android and Javascript from Scratch.
 
 ## Note:
-Scripts for ubuntu will work well in linux mint, elementry OS and Debian
+Scripts for ubuntu will work well in **linux mint **, **elementry OS** and **Debian**
 
 
 ## Table of contents
