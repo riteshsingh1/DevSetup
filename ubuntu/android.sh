@@ -2,6 +2,8 @@
 
 #Ubuntu 16.04 Android Development setup
 
+
+echo -e "\e[92m Installing JAVA \e[39m"
 #install JAVA
 sudo add-apt-repository ppa:webupd8team/java
 
@@ -19,6 +21,7 @@ echo -e "\e[92m Installing sqlite \e[39m"
 # install sqlite
 sudo apt-get install sqlite3
 
+echo -e "\e[92m Installing Android Studio \e[39m"
 
 # install android studio
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
