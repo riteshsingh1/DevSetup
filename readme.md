@@ -58,7 +58,8 @@ Open the terminal and run
 git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-php.sh
 ```
 
-this will install all packages essential for PHP development
+this will install all packages essential for PHP development. 
+The default mysql root password is root.
 
 ## Javascript
 Open the terminal and run
