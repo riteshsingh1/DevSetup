@@ -66,6 +66,7 @@ git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ub
 ```
 
 **Windows**
+
 Open command prompt with administrator then navigate to this directory then run-
 
 ```bash
@@ -86,6 +87,7 @@ git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ub
 ```
 
 **Windows**
+
 Open command prompt with administrator then navigate to this directory then run-
 
 ```bash
@@ -106,6 +108,7 @@ git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ub
 ```
 
 **Windows**
+
 Open command prompt with administrator then navigate to this directory then run-
 
 ```bash
