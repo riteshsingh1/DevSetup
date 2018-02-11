@@ -119,6 +119,7 @@ this will download and install all, JAVA and set home variable and required comp
 
 ## TODO
  - Add Support for Fedora and RHEL
+ - Add Support for GO and Python
 
 ## Contributing
 Pull Requests are welcome.
