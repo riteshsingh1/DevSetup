@@ -80,6 +80,11 @@ echo -e "\e[93m User: root, Password: root \e[39m"
 # Restart apache server
 sudo service apache2 restart
 
+
+echo -e "\e[92m Installing sqlite \e[39m"
+# install sqlite
+sudo apt-get install sqlite3
+
 #install node js 
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -100,4 +105,4 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt update
 sudo apt install sublime-text
 
-echo -e "\e[92m System Setup Completed. If you have facing any issue please report at: https://github.com/riteshsingh1/DevSetup/issues \e[39m"
+echo -e "\e[92m  Dev Setup Completed. If you have facing any issue please report at: https://github.com/riteshsingh1/DevSetup/issues \e[39m"

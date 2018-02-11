@@ -39,12 +39,19 @@ sudo npm install -g webpack
 echo -e "\e[92m webpack installed successfully \e[39m"
 
 
+
+echo -e "\e[92m Installing sqlite \e[39m"
+# install sqlite
+sudo apt-get install sqlite3
+echo -e "\e[92m Sqlite installed successfully \e[39m"
+
+
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt update
 sudo apt install sublime-text
 
-echo -e "\e[92m System Setup Completed. If you have facing any issue please report at: https://github.com/riteshsingh1/DevSetup/issues \e[39m"
+echo -e "\e[92m Dev Setup Completed. If you have facing any issue please report at: https://github.com/riteshsingh1/DevSetup/issues \e[39m"
 
 
 
