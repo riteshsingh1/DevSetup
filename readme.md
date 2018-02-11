@@ -1,6 +1,20 @@
 # DevSetup
 ### Setup Delopment environment for PHP,Android and Javascript from Scratch.
 
+## Note:
+Scripts for ubuntu will work well in linux mint, elementry OS and Debian
+
+
+## Table of contents
+
+* [Features](#features)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [To DO](#todo)
+
+
+
+
 ## Features
  
 
@@ -64,3 +78,10 @@ git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ub
 ```
 
 this will download and install all, JAVA and set home variable and required component like latest android SDK, Android platform tools, etc. It will also create a desktop icon.
+
+## TODO
+ - Add Support for windows
+ - Add Support for Fedora and RHEL
+
+## Contributing
+Pull Requests are welcome.
