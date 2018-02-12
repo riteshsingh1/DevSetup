@@ -115,7 +115,7 @@ Open command prompt with administrator then navigate to this directory then run-
 windows-android
 ```
 
-this will download and install all, JAVA and set home variable and required component like latest android SDK, Android platform tools, etc. It will also create a desktop icon.
+this will download and install everything including JAVA and required component like latest android SDK, Android platform tools, etc. It will also create a desktop icon.
 
 ## TODO
  - Add Support for Fedora and RHEL
