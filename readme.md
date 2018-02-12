@@ -41,7 +41,7 @@ Please make sure you have git installed. If not then
 open terminal and run-
 
 ```bash
-sudo apt-get install update && sudo apt-get install git
+sudo apt-get update && sudo apt-get install git
 ```
 
 ### windows
