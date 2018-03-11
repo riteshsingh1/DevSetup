@@ -74,7 +74,7 @@ windows-php
 ```
 
 this will install all packages essential for PHP development. 
-The default mysql root password is root.
+#### The default mysql root password is root.
 
 ## Javascript
 
