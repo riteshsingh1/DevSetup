@@ -28,9 +28,9 @@ then
     read dev
     if [ $dev -eq 1 ]
     then
-      sh laravel-dev.sh
+      sh dev.sh
     else
-      sh laravel-production.sh
+      sh production.sh
     fi 
   elif [ $framework -eq 1 ]
   then
@@ -41,9 +41,9 @@ then
     read dev
     if [ $dev -eq 1 ]
     then
-      sh laravel-dev.sh
+      sh dev.sh
     else
-      sh laravel-production.sh
+      sh production.sh
     fi
     elif [ $framework -eq 3 ]
   then
@@ -54,9 +54,9 @@ then
     read dev
     if [ $dev -eq 1 ]
     then
-      sh laravel-dev.sh
+      sh dev.sh
     else
-      sh laravel-production.sh
+      sh production.sh
     fi
     elif [ $framework -eq 4 ]
   then
@@ -67,9 +67,9 @@ then
     read dev
     if [ $dev -eq 1 ]
     then
-      sh laravel-dev.sh
+      sh dev.sh
     else
-      sh laravel-production.sh
+      sh production.sh
     fi
     elif [ $framework -eq 5 ]
   then
@@ -80,19 +80,176 @@ then
     read dev
     if [ $dev -eq 1 ]
     then
-      sh laravel-dev.sh
+      sh dev.sh
     else
-      sh laravel-production.sh
+      sh production.sh
     fi
   else
   echo "Invalid Option."
   fi
 elif [ $os -eq 2 ]
 then
-  echo "Linux Mint."
+ #linux mint
+echo "You Selected Linux Mint, now choose framework"
+  echo "1. Core PHP (PHP 7.2)"
+  echo "2. Laravel (PHP 7.2)"
+  echo "3. Yii-2 (PHP 7.2)"
+  echo "4. CodeIgniter (PHP 7.2)"
+  echo "5. Zend Framework"
+  
+  read framework
+  
+  echo "You Selected $framework"
+  if [ $framework -eq 2 ]
+  then 
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi 
+  elif [ $framework -eq 1 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+    elif [ $framework -eq 3 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+    elif [ $framework -eq 4 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+    elif [ $framework -eq 5 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+  else
+  echo "Invalid Option."
+  fi
+
+ # linux mint
 elif [ $os -eq 3 ]
 then
-  echo "Elemetry OS."
+  echo "You Selected Elementry OS, now choose framework"
+  echo "1. Core PHP (PHP 7.2)"
+  echo "2. Laravel (PHP 7.2)"
+  echo "3. Yii-2 (PHP 7.2)"
+  echo "4. CodeIgniter (PHP 7.2)"
+  echo "5. Zend Framework"
+  
+  read framework
+  
+  echo "You Selected $framework"
+  if [ $framework -eq 2 ]
+  then 
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi 
+  elif [ $framework -eq 1 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+    elif [ $framework -eq 3 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+    elif [ $framework -eq 4 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+    elif [ $framework -eq 5 ]
+  then
+    echo "Starting Installation. Please make sure to have an active Internet Connection..."
+    echo "Select Environment for Installation "
+    echo "1. Development"
+    echo "2. Production"
+    read dev
+    if [ $dev -eq 1 ]
+    then
+      sh dev.sh
+    else
+      sh production.sh
+    fi
+  else
+  echo "Invalid Option."
+  fi
 elif [ $os -eq 4 ]
 then
   echo "Windows"
