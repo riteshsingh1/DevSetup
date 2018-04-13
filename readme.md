@@ -9,6 +9,7 @@ Environment Setup has been always a tidious task. I created this to make setup e
 * CORE PHP
 * CODEIGNITER
 * CAKEPHP
+* ZEND
 ---
 
 ## Note:
@@ -26,7 +27,8 @@ Scripts for ubuntu will work well in **linux mint**, **elementry OS** and **Debi
 
 
 ## Features
-THIS WILL INSTALL AND CONFIGURE FOLLOWING THINGS -
+### *ON DEVEOPMENT ENVIRONMENT*
+THIS WILL INSTALL AND CONFIGURE FOLLOWING THINGS ON DEVELOPEMENT ENVIRONMENT -
 - PHP 7.1
 - NGINX
 - MYSQL 5.7
@@ -35,6 +37,21 @@ THIS WILL INSTALL AND CONFIGURE FOLLOWING THINGS -
 - YARN
 - BOWER
 - GULP
+
+### *ON PRODUCTION ENVIRONMENT*
+THIS WILL INSTALL AND CONFIGURE FOLLOWING THINGS ON PRODUCTION ENVIRONMENT IN OPTIMIZED WAY -
+- DOMAIN 
+- SSL
+- PHP 7.1
+- NGINX
+- MYSQL 5.7
+- NODE
+- NPM
+- YARN
+- BOWER
+- GULP
+
+*NOTE:*  gzip and leverage browser caching will be configured automatically in production environment.
 
 ## Prerequisites
 
