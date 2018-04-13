@@ -1,5 +1,5 @@
 # DevSetup
-### Setup Delopment environment for PHP,Android and Javascript from Scratch.
+### Setup Delopment and Production environment for PHP & It's Frameworks
 
 ## Note:
 Scripts for ubuntu will work well in **linux mint**, **elementry OS** and **Debian**
@@ -18,18 +18,14 @@ Scripts for ubuntu will work well in **linux mint**, **elementry OS** and **Debi
 ## Features
  
 
-PHP 				| JAVASCRIPT   				| ANDROID
----     			| ---						| ---
-PHP  7.1			| Node 9.5					| Android studio 3
-Mysql  5.7			| NPM 5.6					| AVD
-Apache  2.4			| YARN 1.3.2				| SDK
-Node 9.5			| Gulp latest				| Platform tools
-NPM  5.6			| bower 1.8					| JAVA 	
-YARN 1.3.2			| webpack latest			| Environment variable for java
-Sublime Text 3.0 	| sublime text 3.0			| Google Chrome
-google chrome 64.0	| google chrome 64.0		| Sqlite 3.0	
-Sqite 3.0			| Sqlite 3.0				|
-Composer 1.6		| 							|
+PHP 
+---
+PHP 7.1
+NPM
+YARN
+REDIS
+BEANSTALKD
+MYSQL
 
 
 
