@@ -1,5 +1,15 @@
-# DevSetup
-### Setup Delopment and Production environment for PHP & It's Frameworks
+# Setup Production and Development Environment for PHP & It's Frameworks
+
+Environment Setup has been always a tidious task. I created this to make setup easier, this will setup your domain also on production environment, so you don't have to bother about virtual hosts or server blocks.
+
+### Frameworks Supported -
+---
+* LARAVEL 5.*
+* YII-2
+* CORE PHP
+* CODEIGNITER
+* CAKEPHP
+---
 
 ## Note:
 Scripts for ubuntu will work well in **linux mint**, **elementry OS** and **Debian**
@@ -16,18 +26,15 @@ Scripts for ubuntu will work well in **linux mint**, **elementry OS** and **Debi
 
 
 ## Features
- 
-
-PHP 
----
-PHP 7.1
-NPM
-YARN
-REDIS
-BEANSTALKD
-MYSQL
-
-
+THIS WILL INSTALL AND CONFIGURE FOLLOWING THINGS -
+- PHP 7.1
+- NGINX
+- MYSQL 5.7
+- NODE
+- NPM
+- YARN
+- BOWER
+- GULP
 
 ## Prerequisites
 
@@ -46,72 +53,19 @@ Download [Git For Windows](https://git-scm.com/download/win)
 
 ## Installation
 
-* [PHP Development System](#php-development-setup)
-* [Javascript Developement System](#javascript)
-* [Android Development System](#android)
-
-
-## PHP Development Setup
-
-**Ubuntu and Linux**
-
-Open the terminal and run
+## ENVIRONMENT FOR DEVELOPMENT
 
 ```bash
-git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-php.sh
+git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./start.sh
 ```
+Then Just Follow the instructions and relax.
 
-**Windows**
-
-Open command prompt with administrator then navigate to this directory then run-
+## ENVIRONMENT FOR PRODUCTION
 
 ```bash
-windows-php
+git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./start.sh
 ```
-
-this will install all packages essential for PHP development. 
-#### The default mysql root password is root.
-
-## Javascript
-
-**Ubuntu and Linux**
-
-Open the terminal and run
-
-```bash
-git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-js.sh
-```
-
-**Windows**
-
-Open command prompt with administrator then navigate to this directory then run-
-
-```bash
-windows-js
-```
-
-this will install all packages essential for Javascript development
-
-
-## Android
-
-**Ubuntu and Linux**
-
-Open the terminal and run
-
-```bash
-git clone https://github.com/riteshsingh1/DevSetup.git && cd DevSetup && sh ./ubuntu-android.sh
-```
-
-**Windows**
-
-Open command prompt with administrator then navigate to this directory then run-
-
-```bash
-windows-android
-```
-
-this will download and install everything including JAVA and required component like latest android SDK, Android platform tools, etc. It will also create a desktop icon.
+Then Just Follow the instructions and relax.
 
 ## TODO
  - Add Support for Fedora and RHEL
