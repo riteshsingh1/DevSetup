@@ -7,7 +7,7 @@ echo "Please Choose Stack:
 
 read n
 case $n in
-    1) sh ./ubuntu/16.04/development.sh;;
+    1) sh ./ubuntu/16.04/lamp.sh;;
     2) echo "Production";;
     3) echo "lemp";;
     4) echo "lemp";;
